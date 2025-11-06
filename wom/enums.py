@@ -171,6 +171,7 @@ class Metric(BaseEnum):
     Sarachnis = "sarachnis"
     Scorpia = "scorpia"
     Scurrius = "scurrius"
+    ShellbaneGryphon = "shellbane_gryphon"
     Skotizo = "skotizo"
     SolHeredit = "sol_heredit"
     Spindel = "spindel"
@@ -301,6 +302,7 @@ Bosses: t.FrozenSet[Metric] = frozenset(
         Metric.Sarachnis,
         Metric.Scorpia,
         Metric.Scurrius,
+        Metric.ShellbaneGryphon,
         Metric.Skotizo,
         Metric.SolHeredit,
         Metric.Spindel,
